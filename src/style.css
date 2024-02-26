@@ -1,3 +1,98 @@
 body {
   background: linear-gradient(100deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  padding: 30px 0;
+}
+
+a {
+  color: #455d7a;
+}
+
+.skycheckapp {
+  background: #f5f7fa;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+header {
+  border-bottom: 1px solid #455d7a;
+  padding-bottom: 30px;
+}
+
+.search-input {
+  background-color: #fafafa;
+  border: none;
+  color: #455d7a;
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+}
+
+.search-button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #455d7a;
+  color: white;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 5px;
+}
+
+.temperature {
+  font-size: 48px;
+}
+
+.weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+.details {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.details strong {
+  color: #0092ca;
+}
+
+.temperature-icon {
+  position: relative;
+  top: -5px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.temperature-value {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.temperature-unit {
+  font-size: 25px;
+  position: relative;
+  top: -38px;
+}
+
+footer {
+  border-top: 1px solid #455d7a;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 12px;
+  color: rgba(39, 33, 66, 0.4);
 }
