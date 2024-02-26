@@ -21,7 +21,7 @@ a {
 }
 
 header {
-  border-bottom: 1px solid #455d7a;
+  border-bottom: 1px solid rgba(39, 33, 66, 0.4);
   padding-bottom: 30px;
 }
 
@@ -90,7 +90,7 @@ header {
 }
 
 footer {
-  border-top: 1px solid #455d7a;
+  border-top: 1px solid rgba(39, 33, 66, 0.4);
   text-align: center;
   padding-top: 30px;
   font-size: 12px;
