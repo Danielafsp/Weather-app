@@ -100,22 +100,29 @@ header {
 .forecast-date {
   text-align: center;
   font-size: 16px;
-  color: #000;
+  color: rgba(39, 33, 66, 0.4);
   line-height: 20px;
   margin-bottom: 10px;
 }
 
 .forecast-icon {
-  width: 50px;
+  width: 60px;
   text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
-.forecast-temperature {
+.forecast-temperatures {
   text-align: center;
   color: #0092ca;
   margin-top: 10px;
   display: flex;
   justify-content: center;
+}
+
+.forecast-temperature {
+  padding: 0 5px;
+  display: block;
 }
 
 footer {
