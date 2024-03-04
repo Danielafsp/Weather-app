@@ -56,7 +56,31 @@ function search(event) {
   searchCity(searchInput.value);
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `  
+      <div class="forecast-day">
+        <div class="forecast-date">${day}</div>
+        <div class="forecast-icon">🌧️</div>
+        <div class="forecast-temperature">
+          <span class="forecast-temperature-max">18°</span>
+          <span class="forecast-temperature-min">12°</span>
+        </div>
+      </div>`;
+  });
+
+  forecastElement.innerHTML = forecastHtml;
+}
+
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", search);
 
 searchCity("Coimbra");
+displayForecast();
